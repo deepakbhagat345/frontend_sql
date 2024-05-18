@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -11,10 +12,10 @@ const Header = () => {
       <nav className="nav-container">
         <h1 className="nav-brand">VisionVow</h1>
         <ul className="nav-links">
-          <li><a href="/" >Home</a></li>
-          <li><a href="/about" >About</a></li>
-          <li><a href="/dashboard" >Dashboard</a></li>
-          <li><a href="/contact" >Contact Us</a></li>
+          <li><Link href="/" >Home</Link></li>
+          <li><Link href="/about" >About</Link></li>
+          <li><Link href="/dashboard" >Dashboard</Link></li>
+          <li><Link href="/contact" >Contact Us</Link></li>
         </ul>
       </nav>
     </header>
@@ -22,3 +23,4 @@ const Header = () => {
 };
 
 export default Header;
+
