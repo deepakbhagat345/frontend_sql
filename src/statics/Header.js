@@ -12,10 +12,10 @@ const Header = () => {
       <nav className="nav-container">
         <h1 className="nav-brand">VisionVow</h1>
         <ul className="nav-links">
-          <li><Link href="/" >Home</Link></li>
-          <li><Link href="/about" >About</Link></li>
-          <li><Link href="/dashboard" >Dashboard</Link></li>
-          <li><Link href="/contact" >Contact Us</Link></li>
+          <li><Link to="/" >Home</Link></li>
+          <li><Link to="/about" >About</Link></li>
+          <li><Link to="/dashboard" >Dashboard</Link></li>
+          <li><Link to="/contact" >Contact Us</Link></li>
         </ul>
       </nav>
     </header>
@@ -23,4 +23,3 @@ const Header = () => {
 };
 
 export default Header;
-
